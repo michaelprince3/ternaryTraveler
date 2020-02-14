@@ -1,8 +1,7 @@
 const htmlMaker = {
     makePlaceOption(place) {
         return `
-            <option id="${place.id}">${place.name}</option>
-            
+            <option value="${place.id}" id="${place.id}">${place.name}</option>
             `
     },
 
@@ -16,6 +15,14 @@ const htmlMaker = {
             <button id="editBtn--${interest.id}">Edit</button>
             <button id="deleteBtn--${interest.id}">Delete</button>
         </section>
+        `
+    },
+
+    makeReview() {
+        return `
+            <fieldset>
+                <textarea name="reviewText" id="reviewId" cols="60 rows="10"></textarea>
+            </fieldset>
         `
     }
 }
