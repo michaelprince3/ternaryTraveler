@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
+      <h1>Where do you want to go today?</h1>
+      <input type="hidden" name="hidden" value="" id="interestId">
     <fieldset>
       <input
         type="text"
@@ -16,12 +18,7 @@
       />
     </fieldset>
     <fieldset>
-      <input
-        type="text"
-        name="locationDescription"
-        id="locationDescriptionId"
-        placeholder="Description"
-      />
+        <textarea name="locationDescription" id="locationDescriptionId" placeholder="Description" cols="60" rows="10"></textarea>
     </fieldset>
     <fieldset>
       <input
@@ -36,8 +33,9 @@
         <option value="select">Choose a Place</option>
       </select>
     </fieldset>
+    <section id="reviewSection"></section>
 
-    <button type="submit" id="submitBtnId">Submit</button>
+    <button type="submit" id="saveBtnId">Save</button>
     <article id="interestRenderId"></article>
     <script type="module" src="scripts/places.js"></script>
   </body>

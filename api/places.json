@@ -16,15 +16,46 @@
       "visa_required": false
     }
   ],
-
   "interests": [
     {
       "id": 1,
       "placeId": 1,
       "name": "Local Market",
       "description": "Local market where you can purchase local products and try the local food",
-      "cost": 0.0,
+      "cost": 0,
       "review": ""
+    },
+    {
+      "placeId": "3",
+      "name": "Anywhere",
+      "description": "Anything",
+      "cost": "Money",
+      "review": "",
+      "id": 3
+    },
+    {
+      "placeId": "2",
+      "name": "Zermatt",
+      "description": "Mountains",
+      "cost": "Money",
+      "review": "Amazing",
+      "id": 5
+    },
+    {
+      "placeId": "1",
+      "name": "Sicily",
+      "description": "Great Pizza",
+      "cost": "Money",
+      "review": "Delicious!!",
+      "id": 6
+    },
+    {
+      "placeId": "2",
+      "name": "Basel",
+      "description": "Great watches",
+      "cost": "$$$$",
+      "review": "",
+      "id": 8
     }
   ]
 }
